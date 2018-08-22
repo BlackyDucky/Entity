@@ -1,0 +1,14 @@
+G:\Documents\software_projects\Entity\Entity\bin\Debug\netcoreapp2.0\Entity.deps.json
+G:\Documents\software_projects\Entity\Entity\bin\Debug\netcoreapp2.0\Entity.runtimeconfig.json
+G:\Documents\software_projects\Entity\Entity\bin\Debug\netcoreapp2.0\Entity.runtimeconfig.dev.json
+G:\Documents\software_projects\Entity\Entity\bin\Debug\netcoreapp2.0\Entity.dll
+G:\Documents\software_projects\Entity\Entity\bin\Debug\netcoreapp2.0\Entity.pdb
+G:\Documents\software_projects\Entity\Entity\obj\Debug\netcoreapp2.0\Entity.csprojAssemblyReference.cache
+G:\Documents\software_projects\Entity\Entity\obj\Debug\netcoreapp2.0\Entity.csproj.CoreCompileInputs.cache
+G:\Documents\software_projects\Entity\Entity\obj\Debug\netcoreapp2.0\Entity.AssemblyInfoInputs.cache
+G:\Documents\software_projects\Entity\Entity\obj\Debug\netcoreapp2.0\Entity.AssemblyInfo.cs
+G:\Documents\software_projects\Entity\Entity\obj\Debug\netcoreapp2.0\Entity.dll
+G:\Documents\software_projects\Entity\Entity\obj\Debug\netcoreapp2.0\Entity.pdb
+G:\Documents\software_projects\Entity\Entity\bin\Debug\netcoreapp2.0\Library.dll
+G:\Documents\software_projects\Entity\Entity\bin\Debug\netcoreapp2.0\Library.pdb
+G:\Documents\software_projects\Entity\Entity\obj\Debug\netcoreapp2.0\Entity.csproj.CopyComplete

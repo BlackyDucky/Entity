@@ -1,0 +1,12 @@
+G:\Documents\software_projects\Entity\Services\bin\Debug\netcoreapp2.0\Services.deps.json
+G:\Documents\software_projects\Entity\Services\bin\Debug\netcoreapp2.0\Services.dll
+G:\Documents\software_projects\Entity\Services\bin\Debug\netcoreapp2.0\Services.pdb
+G:\Documents\software_projects\Entity\Services\bin\Debug\netcoreapp2.0\Library.dll
+G:\Documents\software_projects\Entity\Services\bin\Debug\netcoreapp2.0\Library.pdb
+G:\Documents\software_projects\Entity\Services\obj\Debug\netcoreapp2.0\Services.csprojAssemblyReference.cache
+G:\Documents\software_projects\Entity\Services\obj\Debug\netcoreapp2.0\Services.csproj.CoreCompileInputs.cache
+G:\Documents\software_projects\Entity\Services\obj\Debug\netcoreapp2.0\Services.AssemblyInfoInputs.cache
+G:\Documents\software_projects\Entity\Services\obj\Debug\netcoreapp2.0\Services.AssemblyInfo.cs
+G:\Documents\software_projects\Entity\Services\obj\Debug\netcoreapp2.0\Services.csproj.CopyComplete
+G:\Documents\software_projects\Entity\Services\obj\Debug\netcoreapp2.0\Services.dll
+G:\Documents\software_projects\Entity\Services\obj\Debug\netcoreapp2.0\Services.pdb

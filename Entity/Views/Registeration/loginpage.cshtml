@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <script src="~/js/loginpage.js"></script>
+    <link rel="stylesheet" href="~/css/main.css">
+</head>
+
+<body>
+
+    <div class="bigpic">
+        <div style="background-image:url('loko.svg'); background-size:100px;height:15%;  background-repeat:space;">
+        <div class="title">Motorate</div>
+        </div>
+    </div>
+
+
+    <div class="bigpic">
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'signup')">Sign Up</button>
+            <button class="tablinks" onclick="openCity(event, 'signin')">Sign In</button>
+        </div>
+
+        <div id="signup" class="tabcontent">
+            <h3>Sign Up</h3>
+            <p> and join the biggest hub for motor-heads here in Egypt</p>
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="uname">Username</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="uname" name="username" placeholder="Pick a cool username...">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="P@ssw0rd">New P@ssw0rd</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="password" id="P@ssw0rd" name="password" placeholder="ssssh, mum is the word">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="confirm_P@ssw0rd">Confirm P@ssw0rd</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="password" id="confirm_P@ssw0rd" name="confirm_password" placeholder="Could you repeat that?!">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div id="signin" class="tabcontent">
+
+            <h3>Sign In</h3>
+            <p>We're thrilled to have you back</p>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="uname">Username</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="uname" name="username" placeholder="enter your cool username...">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="P@ssw0rd">P@ssw0rd</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="password" id="P@ssw0rd" name="password" placeholder="ssssh, mum is the word">
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <input type="submit" value="GO! GO! GO!">
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

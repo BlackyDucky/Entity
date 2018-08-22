@@ -1,0 +1,186 @@
+<html>
+
+<head>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO7G4gpbTBOeTAmQztwp520oxspaqDQu4&callback=initMap">
+    </script>
+
+    <script src="~/js/addrating.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="bigpic">
+        <div style="background-image:url('loko.svg'); background-size:100px;height:15%;  background-repeat:space;">
+            <div class="title">Motorate</div>
+        </div>
+    </div>
+
+
+    <div class="bigpic">
+
+        <p>Here you can add all the details and rating about the Mechanic / Auto Repair Shop. The rating you provide is anonymus.
+            Unless you state in this form, it will appear under your Username </p>
+
+
+        <div class="container">
+            <h3>Mechanic Info:</h3>
+            <div class="row">
+                <div class="col-25">
+                    <label for="mname">Mechanic Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="uname" name="username" placeholder="his/her name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="mname">Shop Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="uname" name="username" placeholder="...anything that was written on the shops banner">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="mname">Do you have an image of the Shop?</label>
+                </div>
+                <div class="col-75">
+                    <input type="file" name="pic" accept="image/*" >
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="speciality">Speciality</label>
+                </div>
+                <div class="col-75">
+                    <select id="speciality">
+                        <option value="gm">General Mechanic</option>
+                        <option value="mm">Motor Mechanic</option>
+                        <option value="e">Electrician</option>
+                        <option value="tr">Tires and Rims</option>
+                        <option value="bcvf">Body, Chassis, and Vehicle frames</option>
+                        <option value="dlw">Doors, Locks, and Windows</option>
+                        <option value="oof">Oil and Other Fluids</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="speciality">Select Shop location on map</label>
+                </div>
+                <div class="col-75">
+                    <div id="map"></div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="mname">Address/Location</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="address" name="username" placeholder="address">
+                </div>
+            </div>
+
+
+            <hr />
+
+            <h3>Your Rating:</h3>
+            <!-- 
+            Please rate the following: -->
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="P@ssw0rd">Service</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="location" name="password" min=0 max=5 placeholder="out of 5">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="P@ssw0rd">Value for Price</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="location" name="password" min=0 max=5 placeholder="out of 5"> </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="P@ssw0rd">Speed of Service</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="location" name="password" min=0 max=5 placeholder="out of 5"> </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="P@ssw0rd">Location and Accessibilty</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="location" name="password" min=0 max=5 placeholder="out of 5"> </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="P@ssw0rd">Reliability</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="location" name="password" min=0 max=5 placeholder="out of 5"> </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Overall Rating</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="location" name="password" min=0 max=5 placeholder="out of 5"> </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Additional Notes</label>
+                </div>
+                <div class="col-75">
+                    <!-- <input type="number" id="location" name="password" min=0 max=5 placeholder="out of 5"> </div> -->
+                    <textarea id="notes_txtarea"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-100">
+                    <input type="checkbox" name="anonymous" value="anonymous">I wish to remain anonymous.<br>
+                </div>
+               
+            </div>
+
+
+            <!-- SUBMIT -->
+
+
+            <div class="row">
+                <div class="col-25">
+                    
+                </div>
+                <div class="col-75">
+                    <input type="submit" value="Submit" onclick="submitAction()">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
